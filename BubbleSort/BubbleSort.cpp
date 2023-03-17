@@ -50,3 +50,10 @@ void bubbleSortArray() {                    //Procedure untuk mengurutkan array 
         }
     }
 }
+
+int main() {
+    input();                //Memanggil read() dari class bubblesort
+    bubbleSortArray();      //Memanggil bubblesortarray() dari class bubblesort
+    display();              //Memanggil display() dari class bubblesort
+    return 0;
+}
