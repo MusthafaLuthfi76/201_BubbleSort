@@ -27,3 +27,14 @@ void input()        //Procedure untuk input
         cin >> a[i];					//Input dari pengguna
     }
 }
+
+void display() {                                    //Procedure untuk menampilkan hasil
+    cout << endl;                                              //Output baris kosong
+    cout << "====================" << endl;                    //Output ke layar
+    cout << "Element array yang telah tersusun " << endl;      //Output ke layar
+    cout << "====================" << endl;                    //Output ke layar
+    for (int j = 0; j < n; j++) {                   //Looping dengan i dimulai dari 0 hingga n-1
+        cout << a[j] << endl;                       //Output ke layar 
+    }
+    cout << endl;                                   //Output baris kosong
+}
